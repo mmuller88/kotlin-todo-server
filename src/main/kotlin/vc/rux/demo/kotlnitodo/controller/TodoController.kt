@@ -1,11 +1,11 @@
 package vc.rux.demo.kotlnitodo.controller
 
 import org.springframework.web.bind.annotation.*
-import vc.rux.demo.kotlnitodo.repository.TodoRepository
+import vc.rux.demo.kotlnitodo.db.repository.TodoRepository
+import vc.rux.demo.kotlnitodo.dto.DoneDto
+import vc.rux.demo.kotlnitodo.dto.TodoDto
 import vc.rux.demo.kotlnitodo.utils.toDto
 import vc.rux.demo.kotlnitodo.utils.toModel
-import vc.rux.demo.kotlnitodo.vc.rux.demo.kotlnitodo.controller.dto.DoneDto
-import vc.rux.demo.kotlnitodo.dto.TodoDto
 import vc.rux.demo.kotlnitodo.webexceptions.OwnerMismatchException
 import vc.rux.demo.kotlnitodo.webexceptions.TodoNotFoundException
 
