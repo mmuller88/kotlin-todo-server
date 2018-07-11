@@ -14,3 +14,12 @@ Main kotlin features highlighted:
 * string interpolation
 * collections processing in functional style
 * exceptions
+
+
+-------------
+
+
+Links
+* [Author's blog](http://rux.vc)
+* [GitHub repo](https://github.com/ruXlab/kotlin-todo-server)
+
