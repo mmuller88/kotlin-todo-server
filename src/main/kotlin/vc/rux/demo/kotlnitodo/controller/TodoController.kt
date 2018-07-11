@@ -10,6 +10,7 @@ import vc.rux.demo.kotlnitodo.webexceptions.OwnerMismatchException
 import vc.rux.demo.kotlnitodo.webexceptions.TodoNotFoundException
 
 @RestController
+@RequestMapping("/api")
 class TodoController(
     val todoRepository: TodoRepository
 ) {
