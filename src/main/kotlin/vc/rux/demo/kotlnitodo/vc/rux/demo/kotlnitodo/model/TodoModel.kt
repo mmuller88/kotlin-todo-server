@@ -11,7 +11,7 @@ data class TodoModel(
     var id: String? = null,
     var ownerId: String,
     var text: String,
-    var isDone: String,
+    var isDone: Boolean = false,
 
     var createdAt: Date = Date(),
 
