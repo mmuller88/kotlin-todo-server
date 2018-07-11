@@ -16,6 +16,10 @@ Main kotlin features highlighted:
 * exceptions
 
 
+### How to run?
+
+* Make sure you have mongodb server up and running on `localhost`
+* `./gradlew bootRun`
 
 
 ### API Documentation
